@@ -28,12 +28,18 @@ function Body() {
     //     // axios.post('http://localhost:5000/uploadImage',formdata,
     //     // {headers:{"Content-Type":"multipart/form-data"}}).then(res=>{console.log(res.data);});
     // }
-    const getall = async () =>{
-        //  await axios.get('http://localhost:5000/getAllimage').then(res => {console.log(res);setAllimages(res.data)});
-        //  console.log(Allimages)
 
-        await axios.get('http://localhost:5002/').then(res => {console.log(res.data)})
-    }
+
+
+    // const getall = async () =>{
+    //     //  await axios.get('http://localhost:5000/getAllimage').then(res => {console.log(res);setAllimages(res.data)});
+    //     //  console.log(Allimages)
+
+    //     await axios.get('http://localhost:5002/').then(res => {console.log(res.data)})
+    // }
+
+
+    
 
     const uploadimg = (event)=>{
         event.preventDefault();
@@ -99,9 +105,9 @@ function Body() {
            </div>
 
 
-           <div>
+           {/* <div>
            <button onClick={getall}>Show</button>
-           </div>
+           </div> */}
         </div>
     )
 }
