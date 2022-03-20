@@ -44,7 +44,7 @@ function Body() {
         // if(id!==null){
         //     console.log(id)
         // }
-        axios.post('http://localhost:5002/getResult',formdata).then(res=>{  setId(res.data)});
+        axios.post(`https://tmpdtn-bkend.herokuapp.com/getResult`,formdata).then(res=>{  setId(res.data)});
         if(id!==null){
             console.log(id)
         }
