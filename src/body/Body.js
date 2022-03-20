@@ -54,7 +54,7 @@ function Body() {
 
     
     return (
-        <div className=''>
+        <div className='min-h-fit'>
         {/* <input className='text-sm file:bg-blue-200 file:rounded-full hover:file:bg-blue-100
            file:border-0 file:text-blue-500 file:font-semibold file:p-1 file:px-2' type='file' name="myImage" accept="image/*" onChange={onimgchangehandler}>
            </input> */}
